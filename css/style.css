@@ -513,6 +513,16 @@ footer {
     color: var(--text-light);
 }
 
+.bg-dark {
+    background-color: var(--secondary-color) !important;
+    color: var(--white) !important;
+}
+
+.bg-dark h2,
+.bg-dark .section-title {
+    color: var(--white) !important;
+}
+
 /* Animations */
 .reveal {
     opacity: 0;
